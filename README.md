@@ -1,5 +1,5 @@
 # An automation framework to test different types of web components
-Code URl: https://www.seleniumeasy.com/test/
+URl: https://www.seleniumeasy.com/test/
 
 
 ## Setup
