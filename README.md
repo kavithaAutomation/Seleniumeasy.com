@@ -10,7 +10,7 @@ Setup (It is assumed that you have java and maven installed globally.)
 * Install Maven (https://maven.apache.org/install.html)
 
 
-##Note:
+## Note:
 * Test data is in src\test\resources\testData package
 * properties file is in src\test\resources\config\config.properties
 * Extent report is generated inside reports folder with test Steps logs, Failed Screen shot and System info.
