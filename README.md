@@ -1,4 +1,4 @@
-# an automation framework to test different type of web components
+# An automation framework to test different types of web components
 Code URl: https://www.seleniumeasy.com/test/
 
 
