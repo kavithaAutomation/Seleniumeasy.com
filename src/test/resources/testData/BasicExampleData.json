@@ -1,0 +1,63 @@
+{  
+   "name":"BasicExampleData",
+   "description":"Data for a Basic Examples pages",
+   "data":{  
+      "HomePageTest":{  
+         "homepageTest":{  
+            "expected":"Selenium Easy - Best Demo website to practice Selenium Webdriver Online"
+         }
+         
+      },
+	  "SimpleFormDemoTest":{  
+         "singleInputTest":{  
+         	"value":["sample message"]
+          },
+         "twoInputTest":{  
+            "value":["45", "45"],
+            "expected":"90"
+         },
+         "pageTest":{  
+            "expected":"Selenium Easy Demo - Simple Form to Automate using Selenium"
+         }
+         
+      },
+      "SelectDropdownTest":{
+      		"pageTest":{  
+            	"expected":"Selenium Easy Demo - Automate All Scenarios"
+         	},
+         	"singleSelectTest":{
+         		"value":["Wednesday"]
+         	},
+         	"multiSelectTest":{
+         		"value":["New Jersey", "Pennsylvania"]
+         	}
+      },
+      "RadioButtonsDemoTest":{
+      		"pageTest":{  
+            	"expected":"Selenium Easy Demo - Radio buttons demo for Automation"
+         	},
+         	"radioBtnTest":{
+         		"value":["Female"]
+         	},
+         	"groupRadioBtnTest":{
+         		"value":["Female","5 - 15"]
+         	}
+      },
+      "JSalertTest":{
+      		"pageTest":{  
+            	"expected":"Selenium Easy Demo - Automate All Scenarios"
+         	},
+         	"acceptReject_AlertTest":{
+         		"value":["Press a button!"]
+         	},
+         	"alertBoxTest":{
+         		"value":["I am an alert box!"]
+         	},
+         	"promptBoxTest":{
+         		"value":["Please enter your name", "kavitha vinotha"]
+         	}
+      }
+      
+      
+   }
+}

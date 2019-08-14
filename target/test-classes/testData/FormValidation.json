@@ -1,0 +1,42 @@
+{
+   "name":"SamplTestData",
+   "description":"Data for a sample form page",
+   "data":{  
+     
+      "BasicExamplePage":{  
+         "singleInputField":{  
+         	"value":"single Input"
+          },
+         "twoInputFieldA":{  
+            "value":"Firstname"
+         },
+         "lName":{  
+            "value":"Lastname"
+         },
+         "address":{  
+            "value":"100 Fake St"
+         },
+         "city":{  
+            "value":"Fakecity"
+         },
+         "state":{  
+            "value":"Kansas"
+         },
+         "zipcode":{  
+            "value":"L1L 1L1"
+         },
+         "phone":{  
+            "value":"4161111111"
+         },
+         "projectDesc":{
+         	"value":"sample comment"
+         },
+         "web" : {
+         	"value" : "www.fake.com"
+         },
+         "isHostingY":{  
+            "value":"1"
+         }
+      }
+   }
+}

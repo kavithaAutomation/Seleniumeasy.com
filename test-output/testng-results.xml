@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2393" started-at="2019-08-13T19:28:44Z" finished-at="2019-08-13T19:28:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2393" started-at="2019-08-13T19:28:44Z" finished-at="2019-08-13T19:28:46Z">
+      <class name="com.qa.application.testcases.SimpleFormDemoTest">
+        <test-method status="PASS" signature="SuiteSetup()[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade]" name="SuiteSetup" is-config="true" duration-ms="8406" started-at="2019-08-13T15:28:36Z" finished-at="2019-08-13T15:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteSetup -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade]" name="MethodSetup" is-config="true" duration-ms="3" started-at="2019-08-13T15:28:44Z" finished-at="2019-08-13T15:28:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="pageTest(java.lang.String)[pri:-1, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade]" name="pageTest" duration-ms="1191" started-at="2019-08-13T15:28:44Z" data-provider="getFromJson" finished-at="2019-08-13T15:28:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium Easy Demo - Simple Form to Automate using Selenium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageTest -->
+        <test-method status="PASS" signature="methodTeatDown(org.testng.ITestResult)[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade]" name="methodTeatDown" is-config="true" duration-ms="8" started-at="2019-08-13T15:28:45Z" finished-at="2019-08-13T15:28:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pageTest status=SUCCESS method=SimpleFormDemoTest.pageTest(java.lang.String)[pri:-1, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeatDown -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade]" name="MethodSetup" is-config="true" duration-ms="0" started-at="2019-08-13T15:28:45Z" finished-at="2019-08-13T15:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="singleInputTest(java.lang.String)[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade]" name="singleInputTest" duration-ms="602" started-at="2019-08-13T15:28:45Z" data-provider="getFromJson" finished-at="2019-08-13T15:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sample message]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleInputTest -->
+        <test-method status="PASS" signature="methodTeatDown(org.testng.ITestResult)[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade]" name="methodTeatDown" is-config="true" duration-ms="1" started-at="2019-08-13T15:28:46Z" finished-at="2019-08-13T15:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=singleInputTest status=SUCCESS method=SimpleFormDemoTest.singleInputTest(java.lang.String)[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeatDown -->
+        <test-method status="PASS" signature="twoInputTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade]" name="twoInputTest" duration-ms="532" started-at="2019-08-13T15:28:46Z" data-provider="getFromJson" finished-at="2019-08-13T15:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[90]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoInputTest -->
+        <test-method status="PASS" signature="MethodSetup()[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade]" name="MethodSetup" is-config="true" duration-ms="0" started-at="2019-08-13T15:28:46Z" finished-at="2019-08-13T15:28:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MethodSetup -->
+        <test-method status="PASS" signature="methodTeatDown(org.testng.ITestResult)[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade]" name="methodTeatDown" is-config="true" duration-ms="1" started-at="2019-08-13T15:28:46Z" finished-at="2019-08-13T15:28:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=twoInputTest status=SUCCESS method=SimpleFormDemoTest.twoInputTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- methodTeatDown -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.qa.application.testcases.SimpleFormDemoTest@5ae63ade]" name="suiteTearDown" is-config="true" duration-ms="1785" started-at="2019-08-13T15:28:46Z" finished-at="2019-08-13T15:28:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- com.qa.application.testcases.SimpleFormDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
