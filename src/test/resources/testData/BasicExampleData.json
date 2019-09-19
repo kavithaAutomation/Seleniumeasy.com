@@ -56,7 +56,33 @@
          	"promptBoxTest":{
          		"value":["Please enter your name", "kavitha vinotha"]
          	}
+      },
+	"CheckboxDemoTest":{
+      		"pageTest":{  
+            	"expected":"Selenium Easy - Checkbox demo for automation using selenium"
+         	},
+         	"singleCheckboxTest":{
+         		"value":["Success - Check box is checked"]
+         	}
+      },
+	  "WindowPopupTest":{
+      		"pageTest":{  
+            	"expected":"Selenium Easy - Window Popup Modal Demo"
+         	},
+         	"singleWindowPopup_Test":{
+         		"value":["Selenium Easy (@seleniumeasy) on Twitter", "Selenium Easy - Home | Facebook"]
+         	}
+      },
+      "BootstrapAlertTest":{
+      		"pageTest":{  
+            	"expected":"Selenium Easy - Bootstrap Alerts Demo for Automation"
+         	},
+         	"alertTest":{
+         		"value":
+         			["success", "rgba(223, 240, 216, 1)"]
+         	}
       }
+	  
       
       
    }

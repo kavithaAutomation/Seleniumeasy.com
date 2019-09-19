@@ -131,10 +131,12 @@ public class BasePage extends Page {
     // webDriverWait for alert/element/...
     public void explicitwait(String condition, By by) {
     	WebDriverWait wait = new WebDriverWait(driver, 10);
-    	if(condition.contains("alert")) {
-    		wait.until(ExpectedConditions.alertIsPresent());
+    	if(condition.contains("bootstrap_alert")) {
+    		wait.until(ExpectedConditions.visibilityOfElementLocated(by));
     	}else if(condition.contains("button")) {
     		wait.until(ExpectedConditions.elementToBeClickable(driver.findElement(by)));
+    	}else if(condition.contains("alert")) {
+    		wait.until(ExpectedConditions.alertIsPresent());
     	}
     }
 	
